@@ -1,0 +1,14 @@
+[package]
+name = "mimc_vesta_hash"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ark-std = { version = "0.3", features = ["print-trace"] }
+
+mimc-halo2 = { git = "https://github.com/avras/mimc-halo2.git", rev = "6eefe63672a89818c6c785e6f02a2ce94a172512" } # Replace with the actual version
+rand = "0.8"
+pasta_curves = "0.4"
+halo2_proofs = "0.2.0"
