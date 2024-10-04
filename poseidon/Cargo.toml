@@ -1,0 +1,12 @@
+[package]
+name = "halo2_bench_poseidon"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ff = { version = "0.13", features = ["bits"] }
+halo2_proofs = { git = "https://github.com/privacy-scaling-explorations/halo2", tag = "v0.3.0", default-features = false }
+halo2curves = { version = "0.6.1" }
+halo2_poseidon = { git = "https://github.com/privacy-scaling-explorations/poseidon-gadget.git", rev = "cb4f31fc4f701cd69800885688ff12777db36cf4" }
+rand = "0.8"
+ark-std = { version = "0.3", features = ["print-trace"] }
