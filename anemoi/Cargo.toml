@@ -1,0 +1,12 @@
+[package]
+name = "halo2_bench_anemoi"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ark-std = { version = "0.3", features = ["print-trace"] }
+
+halo2_proofs = { git = "https://github.com/DelphinusLab/halo2-gpu-specific.git", default-features = true }
+zkwasm-host-circuits = { git = "https://github.com/DelphinusLab/zkWasm-host-circuits.git", rev = "411641fcc6cb091fcd872d3fbf44b2275509ebe6" }

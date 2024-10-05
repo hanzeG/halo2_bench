@@ -1,4 +1,4 @@
-workspace = { members = ["mimc_pallas_hash", "mimc_vesta_hash", "poseidon"] }
+workspace = { members = [ "anemoi","mimc_pallas_hash", "mimc_vesta_hash", "poseidon"] }
 
 [package]
 name = "halo2"
