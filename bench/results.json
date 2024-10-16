@@ -1,0 +1,20 @@
+{
+    "posiedon": {
+        "prove": {
+            "user_time": "0.060",
+            "max_resident_size": "4341760"
+        }
+    },
+    "mimc_pallas": {
+        "prove": {
+            "user_time": "0.055",
+            "max_resident_size": "3981312"
+        }
+    },
+    "mimc_vesta": {
+        "prove": {
+            "user_time": "0.045",
+            "max_resident_size": "3997696"
+        }
+    }
+}
